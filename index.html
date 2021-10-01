@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body> 
+  <div class="survey">
+    <div class="top">
+      <h1 id="title">Free  waliyy Coding Form Survey</h1>
+      <p id="description">Thank you for taking the time to help us
+         improve the platform</p></form>
+    </div>
+    <form id="survey-form">
+      <div class="survey-form"><label for="name" id="name-label">Name</label><br>
+          <input id="name" type="text" placeholder="your name" required><br>
+      <label for="email" id="email-label">Email</label><br>
+      <div>
+          <input id="email" type="email" placeholder="Your email" required><br>
+      <label for="number" id="number-label">number</label><br>
+          <input id="number" type="number" min="5" max='20' placeholder="Your age" required><br>
+      
+      
+      <p id="description">Which option best describes your course role?</p>
+          <!-- <input id="course" type="dropdown" placeholder="choosen course" required> -->
+      <select id="dropdown" name="role" required> 
+      <option  disabled selected value > select your course</option>
+      <option value="course">mathematics</option>
+      <option value="course">English</option>
+      <option value="cou">Chemistry</option>
+      <option value="course">Yoruba</option>
+      <option value="cou">Physics</option>
+      <option value="course">Biology</option>
+      </select>
+      <p id="description">What is your best course ?</p>
+          <!-- <input id="course" type="dropdown" placeholder="choosen course" required> -->
+      <select id="dropdown" name="role" required> 
+      <option  disabled selected value > select your course</option>
+      <option value="course">mathematics</option>
+      <option value="course">English</option>
+      <option value="cou">Chemistry</option>
+      <option value="course">Yoruba</option>
+      <option value="cou">Physics</option>
+      <option value="course">Biology</option>
+      </select><br>
+      <p>recommedation</p>
+      <div class="radio"><label for="track"><input id="track" type="radio" name="frontend" value="loving">Yes</label><br>
+      <label for="track"><input id="track" type="radio" name="frontend" value="loving">No</label><br>
+      <label for="track"><input id="track" type="radio" name="frontend" value="loving">Maybe</label><br></div>
+      <p id="description">What would you like to see improved?</p>
+      <label for="track"><input id="track" type="checkbox" name="frontend" value="loving">Front-end project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="backtend" value="loving">Back-end project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="fullstack" value="loving">Fullstack project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="devop" value="loving">DEVop project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="engineer" value="loving">VR engineer project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="computer science" value="loving">computer-cience project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="ui/ux" value="loving">UI/UX project</label><br>
+      <label for="track"><input id="track" type="checkbox" name="administrator" value="loving">Front-end project</label><br>
+      <p id="description">Any comments or suggestions</p>
+      <textarea id="text" placeholder="Your comments or suggestion"></textarea><br>
+      <button id="submit" type="submit"> Submit</button>
+    </form>
+</div>
+
+</form>    
+</body>
+</html>
