@@ -11,10 +11,10 @@ This is a project that was made in the trial
 
 ## Author
 
-👤 **Brian Cruz**
+👤 **Taiwo Adetona**
 
-- Github: [@githubhandle](https://github.com/BrianSammit)
-- Twitter: [@twitterhandle](https://twitter.com/cruzsammit)
-- Linkedin: [linkedin](https://www.linkedin.com/in/brian-sammit-cruz-rodriguez-5877551a8/)
+- Github: [@githubhandle](https://github.com/taiwo2)
+- Twitter: [@twitterhandle](https://twitter.com/TaiwoAdetona4/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/taiwo-adetona/)
 
 ## 🤝 Contributing
