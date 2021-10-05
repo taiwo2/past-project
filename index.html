@@ -9,21 +9,20 @@
     <title>Document</title>
   </head>
   <body> 
-    <div class="survey">
+    <main class="survey">
       <div class="top">
         <h1 id="title">Free  waliyy Coding Form Survey</h1>
         <p id="description">Thank you for taking the time to help us improve the platform</p>
       </div>
-      <div class="survey-form">
-        <form id="survey-form">
+      <section class="survey-form">
+        <form action="#"  Method="post" id="survey-form">
           <label for="name" id="name-label">Name</label><br>
-            <input id="name" type="text" placeholder="your name" required><br>
+          <input id="name" type="text" placeholder="your name" required><br>
           <label for="email" id="email-label">Email</label><br>
-            <input id="email" type="email" placeholder="Your email" required><br>
+          <input id="email" type="email" placeholder="Your email" required><br>
           <label for="number" id="number-label">number</label><br>
-            <input id="number" type="number" min="5" max='20' placeholder="Your age" required><br>
+          <input id="number" type="number" min="5" max='20' placeholder="Your age" required><br>
           <p class="description">Which option best describes your course role?</p>
-              <!-- <input id="course" type="dropdown" placeholder="choosen course" required> -->
           <select class="dropdown" name="role" required> 
             <option  disabled selected value > select your course</option>
             <option value="course">mathematics</option>
@@ -34,7 +33,6 @@
             <option value="course">Biology</option>
           </select>
           <p class="description">What is your best course ?</p>
-              <!-- <input id="course" type="dropdown" placeholder="choosen course" required> -->
           <select id="dropdown" name="role" required> 
             <option  disabled selected value > select your course</option>
             <option value="course">mathematics</option>
@@ -46,23 +44,35 @@
             </select><br>
           <p>Recommendation</p>
           <div class="radio">
-            <label for="yes"><input id="yes" type="radio" name="yes" value="loving">Yes</label><br>
-            <label for="no"><input id="no" type="radio" name="no" value="loving">No</label><br>
-            <label for="maybe"><input id="maybe" type="radio" name="maybe" value="loving">Maybe</label><br></div>
+            <label for="yes">Yes</label><br>
+            <input id="yes" type="radio" name="yes" value="loving">
+            <label for="no">No</label><br>
+            <input id="no" type="radio" name="no" value="loving">
+            <label for="maybe">Maybe</label><br>
+            <input id="maybe" type="radio" name="maybe" value="loving">
+          </div>
             <p class="description">What would you like to see improved?</p>
-            <label for="frontend"><input id="frontend" type="checkbox" name="frontend" value="loving">Front-end project</label><br>
-            <label for="backend"><input id="backend" type="checkbox" name="backend" value="loving">Back-end project</label><br>
-            <label for="fullstack"><input id="fullstack" type="checkbox" name="fullstack" value="loving">Fullstack project</label><br>
-            <label for="devop"><input id="devop" type="checkbox" name="devop" value="loving">DEVop project</label><br>
-            <label for="engineer"><input id="engineer" type="checkbox" name="engineer" value="loving">VR engineer project</label><br>
-            <label for="computerscience"><input id="computerscience" type="checkbox" name="computerscience" value="loving">computer-cience project</label><br>
-            <label for="uiux"><input id="uiux" type="checkbox" name="uiux" value="loving">UI/UX project</label><br>
-            <label for="administrator"><input id="administrator" type="checkbox" name="administrator" value="loving">Front-end project</label><br>
+            <label for="frontend">Front-end project</label><br>
+            <input id="frontend" type="checkbox" name="frontend" value="loving">
+            <label for="backend">Back-end project</label><br>
+            <input id="backend" type="checkbox" name="backend" value="loving">
+            <label for="fullstack">Fullstack project</label><br>
+            <input id="fullstack" type="checkbox" name="fullstack" value="loving">
+            <label for="devop">DEVop project</label><br>
+            <input id="devop" type="checkbox" name="devop" value="loving">
+            <label for="engineer">VR engineer project</label><br>
+            <input id="engineer" type="checkbox" name="engineer" value="loving">
+            <label for="computerscience">computer-cience project</label><br>
+            <input id="computerscience" type="checkbox" name="computerscience" value="loving">
+            <label for="uiux">UI/UX project</label><br>
+            <input id="uiux" type="checkbox" name="uiux" value="loving">
+            <label for="administrator">Front-end project</label><br>
+            <input id="administrator" type="checkbox" name="administrator" value="loving">
             <p class="description">Any comments or suggestions</p>
             <textarea id="text" placeholder="Your comments or suggestion"></textarea><br>
             <button id="submit" type="submit"> Submit</button>
         </form>
-      </div>
-    </div>
+      </section>
+    </main>
   </body>
 </html>

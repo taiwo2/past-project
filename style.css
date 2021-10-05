@@ -6,13 +6,12 @@ body {
 .survey {
   display: block;
   margin: 0 auto;
+  /* padding: auto; */
 }
 
 .survey-form {
   display: block;
   margin: 0 auto;
-
-  /* border:10px solid greenyellow; */
   padding: 10px 0 8px 8px;
   width: fit-content;
   color: black;
@@ -97,4 +96,5 @@ p {
   width: 700px;
   border-radius: 8px;
   font-size: 2vmax;
+  /* height: auto; */
 }
