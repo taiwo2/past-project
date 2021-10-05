@@ -6,6 +6,7 @@ body {
 .survey {
   display: block;
   margin: 0 auto;
+  
   /* padding: auto; */
 }
 
@@ -96,5 +97,6 @@ p {
   width: 700px;
   border-radius: 8px;
   font-size: 2vmax;
+
   /* height: auto; */
 }
